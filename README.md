@@ -1,18 +1,9 @@
-# Welcome to your new ignited app!
+## Basics
 
-[![CircleCI](https://circleci.com/gh/infinitered/ignite.svg?style=svg)](https://circleci.com/gh/infinitered/ignite)
+To launch on iOS `yarn ios`
+To launch on Android `yarn android`
 
-## The latest and greatest boilerplate for Infinite Red opinions
 
-This is the boilerplate that [Infinite Red](https://infinite.red) uses as a way to test bleeding-edge changes to our React Native stack.
-
-Currently includes:
-
-- React Native
-- React Navigation
-- MobX State Tree
-- TypeScript
-- And more!
 
 ## Quick Start
 
