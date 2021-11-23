@@ -5,6 +5,7 @@ import { observer } from "mobx-react-lite"
 import {
   Text,
   Screen,
+  CharacterRowItem
 } from "../../components"
 import { NavigatorParamList } from "../../navigators"
 import { color, spacing } from "../../theme"
