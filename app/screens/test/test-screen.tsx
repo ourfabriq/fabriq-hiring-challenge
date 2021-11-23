@@ -6,7 +6,6 @@ import {
   Header,
   Text,
   Screen,
-  GradientBackground,
 } from "../../components"
 import { NavigatorParamList } from "../../navigators"
 import { color, spacing } from "../../theme"
@@ -33,13 +32,14 @@ const HEADER_TITLE: TextStyle = {
 }
 const TITLE: TextStyle = {
   ...BOLD,
+  color: "#000000",
   fontSize: 28,
   lineHeight: 38,
   textAlign: "center",
   marginBottom: spacing[5],
 }
 const TAGLINE: TextStyle = {
-  color: "#BAB6C8",
+  color: "#000000",
   fontSize: 15,
   lineHeight: 22,
   marginBottom: spacing[4] + spacing[1],
@@ -52,7 +52,6 @@ export const TestScreen: FC<StackScreenProps<NavigatorParamList, "test">> = obse
 
     return (
       <View testID="DemoScreen" style={FULL}>
-        <GradientBackground colors={["#422443", "#281b34"]} />
         <Screen style={CONTAINER} preset="scroll" backgroundColor={color.transparent}>
           <Header
             headerTx="demoScreen.howTo"

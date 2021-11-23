@@ -6,7 +6,6 @@ import {
   Header,
   Text,
   Screen,
-  GradientBackground,
 } from "../../components"
 import { NavigatorParamList } from "../../navigators"
 import { color, spacing } from "../../theme"
@@ -52,7 +51,6 @@ export const TestTwoScreen: FC<StackScreenProps<NavigatorParamList, "testTwo">> 
 
     return (
       <View testID="DemoScreen" style={FULL}>
-        <GradientBackground colors={["#422443", "#281b34"]} />
         <Screen style={CONTAINER} preset="scroll" backgroundColor={color.transparent}>
           <Header
             headerTx="demoScreen.howTo"
