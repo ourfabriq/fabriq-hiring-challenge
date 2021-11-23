@@ -8,8 +8,9 @@ import React from "react"
 import { useColorScheme } from "react-native"
 import { NavigationContainer, DefaultTheme, DarkTheme } from "@react-navigation/native"
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
-import { WelcomeScreen, DemoScreen, DemoListScreen } from "../screens"
+import { TestScreen } from "../screens"
 import { navigationRef } from "./navigation-utilities"
+import { TestTwoScreen } from "../screens/test/test-two-screen"
 
 /**
  * This type allows TypeScript to know what routes are defined in this navigator
@@ -24,9 +25,8 @@ import { navigationRef } from "./navigation-utilities"
  *   https://reactnavigation.org/docs/typescript#type-checking-the-navigator
  */
 export type NavigatorParamList = {
-  welcome: undefined
-  demo: undefined
-  demoList: undefined
+  test: undefined
+  testTwo: undefined
 }
 
 // Documentation: https://reactnavigation.org/docs/stack-navigator/
@@ -38,11 +38,10 @@ const AppStack = () => {
       screenOptions={{
         headerShown: false,
       }}
-      initialRouteName="welcome"
+      initialRouteName="test"
     >
-      <Stack.Screen name="welcome" component={WelcomeScreen} />
-      <Stack.Screen name="demo" component={DemoScreen} />
-      <Stack.Screen name="demoList" component={DemoListScreen} />
+      <Stack.Screen name="test" component={TestScreen} />
+      <Stack.Screen name="testTwo" component={TestTwoScreen} />
     </Stack.Navigator>
   )
 }
