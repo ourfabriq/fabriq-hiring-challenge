@@ -4,6 +4,15 @@ To launch on iOS `yarn ios`
 To launch on Android `yarn android`
 
 
+## Challenge
+
+### Requirements
+- Match mocks
+- Implement navigation handler from list items to `test-two-screen` and back
+
+### Tips
+- Look around the codebase for pieces that might help 
+
 
 ## Quick Start
 

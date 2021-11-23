@@ -18,8 +18,6 @@ export const TestScreen: FC<StackScreenProps<NavigatorParamList, "test">> = obse
 
     console.warn(characters)
 
-
-
     return (
       <View testID="DemoScreen" style={localStyles.full}>
         <Screen style={localStyles.container} preset="scroll" backgroundColor={color.background}>
