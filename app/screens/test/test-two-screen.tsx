@@ -19,6 +19,7 @@ const CONTAINER: ViewStyle = {
 const BOLD: TextStyle = { fontWeight: "bold" }
 
 const HEADER: TextStyle = {
+  color: "#000000",
   paddingTop: spacing[3],
   paddingBottom: spacing[5] - 1,
   paddingHorizontal: 0,
@@ -38,7 +39,7 @@ const TITLE: TextStyle = {
   marginBottom: spacing[5],
 }
 const TAGLINE: TextStyle = {
-  color: "#BAB6C8",
+  color: "#000000",
   fontSize: 15,
   lineHeight: 22,
   marginBottom: spacing[4] + spacing[1],
@@ -48,19 +49,18 @@ export const TestTwoScreen: FC<StackScreenProps<NavigatorParamList, "testTwo">> 
   ({ navigation }) => {
     const goBack = () => {console.warn('todo: implement back handler')}
 
-
     return (
       <View testID="DemoScreen" style={FULL}>
         <Screen style={CONTAINER} preset="scroll" backgroundColor={color.transparent}>
           <Header
-            headerTx="demoScreen.howTo"
+            headerTx="testScreenTwo.title"
             leftIcon="back"
             onLeftPress={goBack}
             style={HEADER}
             titleStyle={HEADER_TITLE}
           />
-          <Text style={TITLE} preset="header" tx="demoScreen.title" />
-          <Text style={TAGLINE} tx="demoScreen.tagLine" />
+          <Text style={TITLE} preset="header" tx="testScreenTwo.title" />
+          <Text style={TAGLINE} tx="testScreenTwo.text" />
         </Screen>
       </View>
     )
