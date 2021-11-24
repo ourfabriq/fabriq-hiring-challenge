@@ -9,6 +9,7 @@ To launch on Android `yarn android`
 ### Requirements
 - Match mocks
 - Implement navigation handler from list items to `test-two-screen` and back
+- Navigate to `test-two-screen` and display the data selected from the list item
 
 ### Tips
 - Look around the codebase for pieces that might help 
