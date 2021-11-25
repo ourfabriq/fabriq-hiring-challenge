@@ -11,7 +11,8 @@ To launch on Android `yarn android`
 ## Challenge
 
 ### Instructions
-- Create a fork of this repo
+- Create a clone of this repo
+- Change the name and push to your own github
 - Complete the challenge
 - Let us know you've completed it
 
