@@ -10,6 +10,11 @@ To launch on Android `yarn android`
 
 ## Challenge
 
+### Instructions
+- Create a branch off of main
+- Complete the challenge
+- Let us know you've completed it
+
 ### Requirements
 - Match mocks delivered by hiring manager for `test-screen` and `test-two-screen`
 - Implement navigation handler from list items on `test-screen` to `test-two-screen` and back
