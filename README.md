@@ -11,7 +11,7 @@ To launch on Android `yarn android`
 ## Challenge
 
 ### Instructions
-- Create a branch off of main
+- Create a fork of this repo
 - Complete the challenge
 - Let us know you've completed it
 
